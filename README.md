@@ -22,8 +22,15 @@ npm install -g newman-reporter-allure
 ```
 
 ## Cara Menggunakan
-1. Export Environments postman
+1. Export Environments postman 
+![Environments](https://github.com/debifrezz/Allure-Newman-report/blob/main/Pict/Environments.PNG)
 2. Export Collections postman
+![Collections](https://github.com/debifrezz/Allure-Newman-report/blob/main/Pict/Collections.PNG)
 3. Buka cmd dan arahkan pada folder yang berisi Environments dan Collections
+![CMD](https://github.com/debifrezz/Allure-Newman-report/blob/main/Pict/CMD.PNG)
 4. Jalankan "newman run Collection.json -e Environment.json -r allure"
-5. Jalankan Allure server untuk melihat hasil reportnya "Allure serve <direktori report>"
+![Run-newman](https://github.com/debifrezz/Allure-Newman-report/blob/main/Pict/Allure-report.PNG)
+5. Jalankan Allure server untuk melihat hasil reportnya "Allure serve (direktori report)"
+![Allure-serve](https://github.com/debifrezz/Allure-Newman-report/blob/main/Pict/Allure-serve.PNG)
+6. Allure Dashboard
+![Dashboard](https://github.com/debifrezz/Allure-Newman-report/blob/main/Pict/Allure-Dashboard.png)
